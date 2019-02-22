@@ -1,0 +1,33 @@
+2019-02-22 11:26:36.337 [ restartedMain ] - [ INFO  ] [ com.wl.demo.HelloApplication : 48 ] - Starting HelloApplication on DESKTOP-FV7FVSM with PID 17432 (D:\EclipseWorkSpace\spingbootTest\springboot-test\target\classes started by 汪磊 in D:\EclipseWorkSpace\spingbootTest\springboot-test)
+2019-02-22 11:26:36.338 [ restartedMain ] - [ DEBUG ] [ com.wl.demo.HelloApplication : 51 ] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-02-22 11:26:36.338 [ restartedMain ] - [ INFO  ] [ com.wl.demo.HelloApplication : 641 ] - The following profiles are active: dev
+2019-02-22 11:26:36.359 [ restartedMain ] - [ INFO  ] [ o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext : 582 ] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708675d0: startup date [Fri Feb 22 11:26:36 CST 2019]; root of context hierarchy
+2019-02-22 11:26:36.447 [ background-preinit ] - [ INFO  ] [ org.hibernate.validator.internal.util.Version : 30 ] - HV000001: Hibernate Validator 5.3.4.Final
+2019-02-22 11:26:36.951 [ restartedMain ] - [ INFO  ] [ o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer : 89 ] - Tomcat initialized with port(s): 8988 (http)
+2019-02-22 11:26:36.956 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 179 ] - Starting service Tomcat
+2019-02-22 11:26:36.957 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 179 ] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-02-22 11:26:36.998 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 179 ] - Initializing Spring embedded WebApplicationContext
+2019-02-22 11:26:36.998 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 276 ] - Root WebApplicationContext: initialization completed in 639 ms
+2019-02-22 11:26:37.080 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 190 ] - Mapping servlet: 'dispatcherServlet' to [/]
+2019-02-22 11:26:37.082 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 258 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-02-22 11:26:37.082 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 258 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-02-22 11:26:37.083 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 258 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-02-22 11:26:37.083 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 258 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-02-22 11:26:37.221 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 534 ] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708675d0: startup date [Fri Feb 22 11:26:36 CST 2019]; root of context hierarchy
+2019-02-22 11:26:37.248 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 543 ] - Mapped "{[/hello]}" onto public java.lang.String com.wl.demo.HelloApplication.hello()
+2019-02-22 11:26:37.249 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 543 ] - Mapped "{[/hello/do]}" onto public java.lang.String com.wl.demo.controller.Hello.hello()
+2019-02-22 11:26:37.251 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 543 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-02-22 11:26:37.251 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 543 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-02-22 11:26:37.264 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 362 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-02-22 11:26:37.265 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 362 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-02-22 11:26:37.283 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 362 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-02-22 11:26:37.434 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 58 ] - LiveReload server is running on port 35729
+2019-02-22 11:26:37.460 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 431 ] - Registering beans for JMX exposure on startup
+2019-02-22 11:26:37.468 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 179 ] - Initializing ProtocolHandler ["http-nio-8988"]
+2019-02-22 11:26:37.470 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 179 ] - Starting ProtocolHandler [http-nio-8988]
+2019-02-22 11:26:37.476 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 179 ] - Using a shared selector for servlet write/read
+2019-02-22 11:26:37.484 [ restartedMain ] - [ INFO  ] [ o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer : 198 ] - Tomcat started on port(s): 8988 (http)
+2019-02-22 11:26:37.486 [ restartedMain ] - [ INFO  ] [ com.wl.demo.HelloApplication : 57 ] - Started HelloApplication in 1.32 seconds (JVM running for 1.652)
+2019-02-22 11:26:43.454 [ RMI TCP Connection(2)-127.0.0.1 ] - [ INFO  ] [ o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : 125 ] - Application shutdown requested.
+2019-02-22 11:26:43.455 [ RMI TCP Connection(2)-127.0.0.1 ] - [ INFO  ] [ o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext : 987 ] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@708675d0: startup date [Fri Feb 22 11:26:36 CST 2019]; root of context hierarchy
+2019-02-22 11:26:43.456 [ RMI TCP Connection(2)-127.0.0.1 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 449 ] - Unregistering JMX-exposed beans on shutdown
